@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  user-select: none;
+  height: auto;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.header__logo {
+  width: 110px;
+  height: 55px;
+}
+
+.header__cart {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.header__collections {
+  text-align: center;
+  margin: 10px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header__link {
+  font-family: 'Roboto-Regular', sans-serif;
+  color: black;
+}
+
+.cards {
+}
+
+.card {
+}
+
+.card__img {
+  width: 322px;
+  height: 322px;
+}
+
+.tabs {
+  width: 1408px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.tabs__head {
+}
+
+.tabs__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tabs__link {
+  margin-right: 15px;
+  font-family: 'Roboto-Bold', sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tabs__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.tabs__img {
+    width: 300px;
+    height: 400px;
+}
+
+.product-card {
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image__img {
+  width: 100%;
+  height: 400px;
+}
+
+.product-title {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  text-align: center;
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.product-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.product-button:hover {
+  background-color: #333;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
