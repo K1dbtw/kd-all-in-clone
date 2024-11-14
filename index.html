@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,27 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Merch Shop</title>
 </head>
+
 <body>
     <header class="header">
-        <nav class="header__nav">
+        <div class="header__nav">
             <img src="imgs/logo.png" alt="Logo" class="header__logo">
             <img src="imgs/cart2.svg" alt="Cart" class="header__cart">
-        </nav>
-        <div class="header__collections">
-            <ul class="header__list">
-                <a href="#" class="header__link">DROP #3</a>
-                <a href="#" class="header__link">KD ALL IN</a>
-                <a href="#" class="header__link">dyrachyo</a>
-                <a href="#" class="header__link">RAMZES666</a>
-                <a href="#" class="header__link">gpk</a>
-                <a href="#" class="header__link">kiyotaka</a>
-            </ul>
         </div>
     </header>
+    <div class="header__collections">
+        <ul class="header__list">
+            <a href="#" class="header__link">DROP #3</a>
+            <a href="#" class="header__link">KD ALL IN</a>
+            <a href="#" class="header__link">dyrachyo</a>
+            <a href="#" class="header__link">RAMZES666</a>
+            <a href="#" class="header__link">gpk</a>
+            <a href="#" class="header__link">kiyotaka</a>
+        </ul>
+    </div>
     <div class="tabs">
         <div class="tabs__head">
             <ul class="tabs__list">
@@ -89,7 +92,8 @@
     <div class="container">
         <div class="product-card">
             <div class="product-image">
-                <img style="height: 300px; margin-top: 20px;" src="imgs/Ramzes_photo.png" alt="T-Shirt" class="product-image__img">
+                <img style="height: 300px; margin-top: 20px;" src="imgs/Ramzes_photo.png" alt="T-Shirt"
+                    class="product-image__img">
             </div>
             <div class="product-info">
                 <p class="product-description">RAMZES666.</p>
@@ -99,15 +103,171 @@
         </div>
         <div class="product-card">
             <div class="product-image">
-                <img style="height: 300px; margin-top: 20px;" src="imgs/Ramzes_photo.png" alt="T-Shirt" class="product-image__img">
+                <img style="height: 300px; margin-top: 20px;" src="imgs/Ramzes_anime.png" alt="T-Shirt"
+                    class="product-image__img">
             </div>
             <div class="product-info">
                 <p class="product-description">RAMZES666.</p>
-                <p class="product-price">2 700 ₽</p>
+                <p class="product-price">3 000 ₽</p>
                 <button class="product-button">Выбрать</button>
             </div>
         </div>
     </div>
+    <h2 class="title">ALL</h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/Ramzes_photo.png" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">RAMZES666.</p>
+                        <p class="product-price">2 700 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; " src="imgs/dyrachyo.photo.jpg" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">dyrachyo</p>
+                        <p class="product-price">3 500 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/dyrachyo.photo2.jpg" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">dyrachyo (print).</p>
+                        <p class="product-price">2 500 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/dyrachyo.viwivka.jpg" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">dyrachyo viwivka</p>
+                        <p class="product-price">3 500 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/dyrachyo_anime.png" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">Дауби-Дауби.</p>
+                        <p class="product-price">3 000 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/dyrachyo_anime1.jpg" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">Дауби-Дауби (pink edition).</p>
+                        <p class="product-price">3 500 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/Ramzes_anime.png" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">ramzes anime.</p>
+                        <p class="product-price">3 500 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/more.jpg" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">More You Put In, More You Get Out</p>
+                        <p class="product-price">2 500 ₽</p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/kiyotaka_anime.png" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">Kiyotaka anime</p>
+                        <p class="product-price">2 700 ₽ <span style="text-decoration: line-through; margin-left: 10px;">3 000 ₽ </span></p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide card">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img style="height: 400px; margin-top: 20px;" src="imgs/GPK_anime.png" alt="T-Shirt"
+                            class="product-image__img">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-description">gpk anime</p>
+                        <p class="product-price">2 700 ₽ <span style="text-decoration: line-through; margin-left: 10px;">3 000 ₽ </span></p>
+                        <button class="product-button">Выбрать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__links">
+            <ul class="footer__list">
+                <a href="#" class="footer__link">Каталог</a>
+                <a href="https://t.me/k1dbtw2k" class="footer__link">Контакты</a>
+                <a href="https://bts.uz/" class="footer__link">Доставка</a>
+            </ul>
+        </div>
+        <h2 class="footer__delivery">
+            Доставляем по всему миру 🌏
+        </h2>
+        <h2 class="footer__shipments">
+            Международные отправления и помощь по заказам — <a href="" class="footer__nickname">k1dtbw`</a>
+        </h2>
+        <div class="footer__logo">
+            <img src="imgs/logo.png" alt="" class="footer__logos">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
